@@ -93,7 +93,7 @@ def write_data_to_database_with_id(data):
     print('- Erfolgreich gespeichert!')
 
 
-def search_from_data(data):                    # TODO Mach die Funktion so, dass in mehreren Datensätzen
+def search_from_data(data):                  # TODO Mach die Funktion so, dass in mehreren Datensätzen
     entry = str(input('Ihr Suchbegriff: '))  # der Suchbegriff gefunden werden kann.
     for row2 in data:
         for word in row2:
